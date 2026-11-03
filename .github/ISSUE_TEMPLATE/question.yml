@@ -1,0 +1,16 @@
+name: Conceptual Question
+description: Ask a conceptual question regarding string indexing or algorithm complexity.
+title: "[QUESTION]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Questions regarding string algorithms or asymptotic complexity. Direct assignment solutions will not be solved for currently enrolled students.
+  - type: textarea
+    id: inquiry
+    attributes:
+      label: Your Question
+      description: Describe the conceptual string algorithm challenge.
+    validations:
+      required: true
